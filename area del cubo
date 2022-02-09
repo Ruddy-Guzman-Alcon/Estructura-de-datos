@@ -1,0 +1,25 @@
+
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+
+void main ()
+{    
+  float l1,l2,l3,A=0;
+
+  cout<<"digite los lados del cubo: "; cin>>l1;
+  cout<<"digite los lados del cubo: "; cin>>l2;
+  cout<<"digite los lados del cubo: "; cin>>l3;
+   
+
+  A=l1*l2*l3;
+
+
+  cout<<"el area del cubo es:"<<A;
+
+	getch();
+}
